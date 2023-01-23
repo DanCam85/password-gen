@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   background-color: #2f3e53;
-  margin-top: 300px;
+  margin-top: 200px;
   text-align: center;
 }
 
@@ -47,10 +47,10 @@ button {
 .password-box-1,
 .password-box-2 {
   background-color: #273549;
-  width: 211px;
+  width: 200px;
   height: 39px;
   margin-top: 30px;
-  margin-right: 40px;
+  margin-right: 10px;
   border-radius: 8px;
 }
 
