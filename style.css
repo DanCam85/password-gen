@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: #2f3e53;
+  margin-top: 300px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #fff;
+  padding: 10px;
+}
+
+span {
+  color: #4adf86;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+}
+
+button {
+  width: 191px;
+  background-color: #10b981;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 5px;
+  border: none;
+}
+
+.password-box-1,
+.password-box-2 {
+  background-color: #273549;
+  width: 211px;
+  height: 39px;
+  margin-top: 30px;
+  margin-right: 40px;
+  border-radius: 8px;
+}
+
+.password-p {
+  /* margin-right: 30px; */
+  width: 211px;
+  color: #4adf86;
+  padding: 0;
+}
