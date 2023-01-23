@@ -114,6 +114,9 @@ let RandomPasswordOne = generateRandomPassword();
 let RandomPasswordTwo = generateRandomPassword();
 
 function generatePassword() {
+  firstPasswordEl.textContent = "";
+  secondPasswordEl.textContent = "";
+
   firstPasswordEl.textContent += RandomPasswordOne;
   secondPasswordEl.textContent += RandomPasswordTwo;
 }
