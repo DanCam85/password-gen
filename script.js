@@ -110,13 +110,14 @@ function generateRandomPassword() {
   return randomPassword;
 }
 
-let RandomPasswordOne = generateRandomPassword();
-let RandomPasswordTwo = generateRandomPassword();
+
 
 function generatePassword() {
-  firstPasswordEl.textContent = "";
-  secondPasswordEl.textContent = "";
+  let RandomPasswordOne = generateRandomPassword();
+  let RandomPasswordTwo = generateRandomPassword();
+  // firstPasswordEl.textContent = "";
+  // secondPasswordEl.textContent = "";
 
-  firstPasswordEl.textContent += RandomPasswordOne;
-  secondPasswordEl.textContent += RandomPasswordTwo;
+  firstPasswordEl.textContent = RandomPasswordOne;
+  secondPasswordEl.textContent = RandomPasswordTwo;
 }
